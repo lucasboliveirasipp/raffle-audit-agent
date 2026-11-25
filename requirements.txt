@@ -1,0 +1,29 @@
+# Dependências do Sistema de Auditoria de Sorteios
+
+# Interface web
+streamlit>=1.29
+
+# Azure OpenAI e LangChain
+langchain-openai>=0.2,<1.0
+langchain>=0.1.0
+
+# LangGraph para workflow
+langgraph>=0.6,<1.0
+
+# Processamento de dados
+pandas>=2.0.0
+PyPDF2>=3.0.0
+
+# Geração de PDF
+reportlab>=4.0.0
+
+# Banco de dados (SQLite já incluído no Python)
+# sqlite3 (built-in)
+
+# Utilitários padrão (já incluídos no Python)
+# os, re, datetime, typing, tempfile
+
+# Adicionado na revisão do portfólio (importado pelo código)
+pymongo
+python-dotenv
+sqlalchemy
